@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Focus & Smile 2.2",
+  "version": "0.0.0",
+  "description": "An advanced Pomodoro timer and motivational quote board application. It uses AI to generate unique quotes and inspiring images to help you stay focused and positive throughout your work sessions.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com;"
+  }
+}
